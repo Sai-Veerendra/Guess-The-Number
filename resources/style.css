@@ -51,6 +51,7 @@ span {
 }
 
 .button {
+    width: auto;
     padding: 10px 20px;
     background-color: #28a745;
     color: white;
@@ -58,6 +59,7 @@ span {
     border-radius: 8px;
     font-size: 1rem;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .button:hover {
@@ -67,13 +69,25 @@ span {
 @media (max-width: 400px) {
     #container {
         padding: 1.5rem 1rem;
+        width: 100%;
+        max-width: 320px;
     }
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
-    #submit {
+    p {
+        font-size: 0.95rem;
+    }
+
+    #input {
+        font-size: 0.95rem;
+    }
+
+    .button {
         width: 100%;
+        font-size: 0.95rem;
+        padding: 10px;
     }
 }
