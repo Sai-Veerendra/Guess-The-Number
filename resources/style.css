@@ -66,7 +66,7 @@ span {
     background-color: #218838;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 250px) {
     #container {
         padding: 1.5rem 1rem;
         width: 100%;
@@ -86,7 +86,7 @@ span {
     }
 
     .button {
-        width: 100%;
+        width: auto;
         font-size: 0.95rem;
         padding: 10px;
     }
